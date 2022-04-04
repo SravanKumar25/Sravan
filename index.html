@@ -2,47 +2,77 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>My first website</title>
-        <link rel="stylesheet" href="style.css">
+        <title>Sravan Kumar</title>
+        <link rel="stylesheet" href="css/styles.css">
         <link rel="icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+
     </head>
     <body>
-        <table cellspacing="20">
-            <tr>
-                <td><a href="#"><img src = "me.jpg" /></a></td>
-                <td><h1>Velpula Sravan Kumar</h1>
-                    <p>Student at <a href="nitrr.ac.in"><em>National Institute of Technology</em></a>, Raipur</p>
-                    <p>I'm intrested in <strong>web development</strong> and I like playing teble tennis</p></td>
-            </tr>
-        </table>   
-        <br><br>
+        <div class="top-container">
+            <img class="top-img" src="images/cloud.png" alt="cloud-img">
+            <h1>I'm Velpula Sravan Kumar</h1>
+            <p>a <span>web</span> developer</p>
+            <img class="down-img" src="images/cloud.png" alt="cloud-img">
+            <img src="images/mountain.png" alt="mountain-img">
+        </div>
+        <div class="mid-container">
+            <div class="profile">
+                <img id="profile-pic" src="images/profile-pic.png" alt="profile-pic">
+                <h2>Hi there</h2>
+                <p class="intro">I am pursuing my B.Tech in Computer Science and Engineering as a pre-final year student from National Institue of Technology, Raipur. I am very much interested to learn technologies. I have completed my schooling from St. Patrick's High School, Secunderabad and my intermediate with 91.5% from Sri Sanjeevni Junior College, Hyderabad. I am very much passionated about my work. I like playing table tennis and watching anime.</p>
+            </div>
+            <hr>
+            <div class="skills">
+                <h2>My Skills</h2>
+                <div class="skill">
+                    <div class="skill-row">
+                        <img class="skill-img" src="images/java.png" alt="java-pic">
+                        <h5>java</h5>
+                    </div>
+                    <div class="skill-row">
+                        <img class="skill-img" src="images/ds.png" alt="ds-pic">
+                        <h5>dsa</h5>
+                    </div>
+                    <div class="skill-row">
+                        <img class="skill-img" src="images/html.png" alt="html-pic">
+                        <h5>html</h5>
+                    </div>
+                    <div class="skill-row">
+                        <img class="skill-img" src="images/css.png" alt="css-pic">
+                        <h5>css</h5>
+                    </div>
+                    <div class="skill-row">
+                        <img class="skill-img" src="images/js.png" alt="js-pic">
+                        <h5>java script</h5>
+                    </div>
+                    <div class="skill-row">
+                        <img class="skill-img" src="images/sql.png" alt="sql-pic">
+                        <h5>sql</h5>
+                    </div>
+                </div>  
+                <div class="skill-desc">
+                    <p>My preferred language for programming is Java and I solve all the problem related to data structures and algorithms in Java. I am intrested in web development and my front-end skills include HTML-5, CSS-3 & JavaScript and for the database I mostly use SQL.</p>
+                </div>                             
+            </div>  
+            <hr>
+            <div class="contact-me">
+                <h2>Get in touch</h2>
+                <h3>Do you like to play chess?</h3>
+                <p class="contact-msg">Do you like to play chess? We can have an online match and have a chat.</p>
+                <a href="mailto:vickysravan0004@gmail.com" class="btn">Contact me</a>
+            </div>        
+        </div> 
         
-        <h3>About Me</h3>
-        <table cellspacing="2">
-            <tr><td><p>I like watching movies,anime and read manga</p></td></tr>
-            <tr><td><p>Problem solving and messing with puzzles is my hobby</p></td></tr>
-            <tr><td><p>I prefer my own sophisticated way of living</p></td></tr>            
-        </table>
-        
-        <hr>
-        <h3>Skills</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>skill</th><th>expertise</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td>Java</td><td>⭐⭐⭐⭐</td></tr>
-                <tr><td>Data Str.</td><td>⭐⭐⭐</td></tr>
-                <tr><td>HTML</td><td>⭐⭐⭐⭐</td></tr>
-                <tr><td>CSS</td><td>⭐⭐⭐⭐</td></tr>
-                <tr><td>SQL</td><td>⭐⭐⭐⭐</td></tr>
-            </tbody>
-            <tfoot></tfoot>
-        </table>
-        <br>
-        <hr>
-        <a href="contact.html">Contact me</a>
+        <div class="bottom-container">
+            <a class="footer-link" href="linkedin.com/in/sravan-kumar-velpula-6a5654195">Linked-in</a>
+            <a class="footer-link" href="github.com/SravanKumar25">Git Hub</a>
+            <a class="footer-link" href="mailto:vickysravan0004@gmail.com">E-mail</a>
+            <p class="copyright">@2022 Velpula Sravan Kumar</p>
+        </div>           
     </body>
 </html>
